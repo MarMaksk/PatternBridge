@@ -1,4 +1,4 @@
-package com.company;
+package com.company.cars;
 
 public class SportCar extends CarsLogic {
     @Override

@@ -1,4 +1,4 @@
-package com.company;
+package com.company.cars;
 
 public interface Car {
     void startEngine();
@@ -10,4 +10,6 @@ public interface Car {
     void closeDoor();
 
     void turnLight(int brightness);
+
+    int getLightBrightness();
 }
