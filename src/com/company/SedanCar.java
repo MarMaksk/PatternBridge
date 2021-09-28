@@ -1,6 +1,6 @@
 package com.company;
 
-public class SedanCar implements Car {
+public class SedanCar extends CarsLogic {
     private int lightBrightness = 0;
 
     @Override
@@ -23,14 +23,4 @@ public class SedanCar implements Car {
         System.out.println("Slap");
     }
 
-    @Override
-    public void turnLight(int brightness) {
-        if (brightness < 0)
-            lightBrightness = 0;
-        else if (brightness > 100)
-            lightBrightness = 100;
-        else
-            lightBrightness = brightness;
-        System.out.println("Light on. Brightness: " + brightness);
-    }
 }
