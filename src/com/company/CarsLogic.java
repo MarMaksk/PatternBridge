@@ -11,6 +11,6 @@ public abstract class CarsLogic implements Car {
             lightBrightness = 100;
         else
             lightBrightness = brightness;
-        System.out.println("Light on. Brightness: " + brightness);
+        System.out.println("Light on. Brightness: " + lightBrightness);
     }
 }
